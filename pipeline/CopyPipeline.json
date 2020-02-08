@@ -63,7 +63,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "OutputSqlDataset",
+						"referenceName": "OutputSqlData",
 						"type": "DatasetReference"
 					}
 				]
