@@ -1,5 +1,5 @@
 {
-	"name": "OutputSqlDataset",
+	"name": "OutputSqlData",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabaseLinkedService",
