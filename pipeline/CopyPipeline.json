@@ -26,7 +26,15 @@
 						}
 					},
 					"sink": {
-						"type": "AzureSqlSink"
+						"type": "DelimitedTextSink",
+						"storeSettings": {
+							"type": "AzureBlobStorageWriteSettings"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextWriteSettings",
+							"quoteAllText": true,
+							"fileExtension": ".txt"
+						}
 					},
 					"enableStaging": false,
 					"translator": {
@@ -38,8 +46,8 @@
 									"ordinal": 1
 								},
 								"sink": {
-									"name": "FirstName",
-									"type": "String"
+									"type": "String",
+									"ordinal": 1
 								}
 							},
 							{
@@ -48,8 +56,8 @@
 									"ordinal": 2
 								},
 								"sink": {
-									"name": "LastName",
-									"type": "String"
+									"type": "String",
+									"ordinal": 2
 								}
 							}
 						]
@@ -63,7 +71,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "OutputSqlData",
+						"referenceName": "SourceBlobDataset",
 						"type": "DatasetReference"
 					}
 				]
