@@ -21,7 +21,7 @@
 	},
 	"resources": [
 		{
-			"name": "[concat(parameters('factoryName'), '/CopyPipeline')]",
+			"name": "[concat(parameters('factoryName'), '/CopyPipelineR1')]",
 			"type": "Microsoft.DataFactory/factories/pipelines",
 			"apiVersion": "2018-06-01",
 			"properties": {
