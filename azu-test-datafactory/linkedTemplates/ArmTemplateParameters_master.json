@@ -5,13 +5,16 @@
 		"factoryName": {
 			"value": "azu-test-datafactory"
 		},
-		"AzureSqlDatabaseLinkedService_connectionString": {
-			"value": ""
-		},
 		"AzureStorageLinkedService_connectionString": {
 			"value": ""
 		},
+		"AzureSqlDatabaseLinkedService_connectionString": {
+			"value": ""
+		},
 		"trigger2_properties_typeProperties_scope": {
+			"value": "/subscriptions/7f0d2216-d469-42c4-a106-31ea7b421d1d/resourceGroups/azu-test-rg/providers/Microsoft.Storage/storageAccounts/azuteststroageaccount"
+		},
+		"trigger3_properties_typeProperties_scope": {
 			"value": "/subscriptions/7f0d2216-d469-42c4-a106-31ea7b421d1d/resourceGroups/azu-test-rg/providers/Microsoft.Storage/storageAccounts/azuteststroageaccount"
 		},
 		"containerUri": {
